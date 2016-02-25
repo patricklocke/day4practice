@@ -32,5 +32,20 @@ function checkGrade() {
         default:
             alert("I'm sorry, I didn't understand you!");
     }
-}    
-                
+}  
+
+function add (op1, op2) {
+    return op1 + op2;
+}  
+function subtract (op1, op2) {
+    return op1 - op2; 
+}
+function divide (op1, op2) {
+    if (op2 !== 0) {
+        return op1 / op2;
+    } else alert ("You have destroyed the universe!");  
+}
+
+function multiply (op1, op2) {
+    return op1 * op2;
+}
